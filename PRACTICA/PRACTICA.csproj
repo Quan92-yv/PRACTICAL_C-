@@ -38,13 +38,11 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Ex.1\Mobilephone.cs" />
-        <Compile Include="Ex.1\phone.cs" />
-        <Compile Include="Program.cs" />
+        <Compile Include="baithi\Ex.1\Mobilephone.cs" />
+        <Compile Include="baithi\Ex.1\phone.cs" />
+        <Compile Include="baithi\Ex.2\PrimeNumberFinder.cs" />
+        <Compile Include="baithi\Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Ex.2" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
